@@ -12,3 +12,9 @@ class Person
     @name
   end
 end
+
+class Person
+  def job=(job_of_person)
+    @job= job_of_person
+  end
+end
